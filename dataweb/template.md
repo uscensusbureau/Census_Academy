@@ -1,6 +1,6 @@
 # Title
 
-### What You Will Learn in This Tutorial
+### What You Will Learn
 
 ## Summary
 
