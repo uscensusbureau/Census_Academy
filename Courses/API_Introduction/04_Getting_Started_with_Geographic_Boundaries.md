@@ -35,7 +35,7 @@ We're looking for the 2016 data, so -- from the left navigation pane -- click on
 
 #### The TIGERweb Query Builder
 
-![Query Builder](./assets/tigerweb-query-builder-shot.png)
+![Query Builder](https://raw.githubusercontent.com/uscensusbureau/Census_Academy/master/assets/tigerweb-query-builder-shot.png)
 
 This is a generic query builder that ESRI provisions for all Feature Services such as the one used by the Census Bureau. If you're like me - and not a GIS expert - these won't make any sense to you.
 
@@ -119,7 +119,7 @@ So, after all that, here's what our states request translates into a RESTful que
 https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2016/MapServer/82/query?where=BASENAME+%3D+%27Maryland%27+OR+BASENAME+%3D+%27Virginia%27+OR+BASENAME+%3D+%27District+of+Columbia%27&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&resultOffset=&resultRecordCount=&f=geojson
 ```
 
-The response for this request is located in the repo [here](./assets/shapes/2016-states-API-request.geojson).
+The response for this request is located in the repo [here](https://github.com/uscensusbureau/Census_Academy/blob/master/assets/shapes/2016-states-API-request.geojson).
 
 ## The TIGER/Line FTP Website
 
@@ -131,11 +131,11 @@ We'll cover how to navigate this FTP site and get the boundaries for our data (2
 
 From [the Census Bureau's FTP site for TIGER files](https://www2.census.gov/geo/tiger/), scan down to find the 2016 vintage `TIGER2016`.
 
-![Screenshot of TIGER/Line FTP site](./assets/TIGERline-FTP.png)
+![Screenshot of TIGER/Line FTP site](https://raw.githubusercontent.com/uscensusbureau/Census_Academy/master/assets/TIGERline-FTP.png)
 
 This will get us a list of available layers (although somewhat cryptically).
 
-![Screenshot of TIGER2016 FTP microsite](./assets/TIGERline-FTP-2016.png)
+![Screenshot of TIGER2016 FTP microsite](https://raw.githubusercontent.com/uscensusbureau/Census_Academy/master/assets/TIGERline-FTP-2016.png)
 
 If you're having a hard time finding the file which corresponds to the geographic resolution you need, first review the section on geographies in the intro tutorial and - if you're still having troubles - please reach out via the contact info below and we will be happy to assist you.
 
@@ -155,7 +155,7 @@ There was a little hiccup when I made this translation, which you may run into w
 
 You might also find -- as I did -- that larger .geojson files might crash your text editor (Atom, in my case). Sublime text worked for me for this purpose.
 
-For your convenience, I've included the resulting translation in the [assets/shapes folder](./assets/shapes/2016-states.geojson) of this repo where you should be able to see the shapes rendered in github or you can use a third-party Web viewer to verify yours at [mapshaper.org](http://mapshaper.org/).
+For your convenience, I've included the resulting translation in the [assets/shapes folder](https://github.com/uscensusbureau/Census_Academy/blob/master/assets/shapes/2016-states.geojson) of this repo where you should be able to see the shapes rendered in github or you can use a third-party Web viewer to verify yours at [mapshaper.org](http://mapshaper.org/).
 
 ## Summary
 

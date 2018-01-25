@@ -100,7 +100,7 @@ This gives us the estimate for the Gini index for every state in the US, which l
 ...
 ```
 
-The full response is available in the repo [here](./assets/statistical-data/B19083_001E.json)
+The full response is available in the repo [here](https://github.com/uscensusbureau/Census_Academy/blob/master/assets/statistical-data/B19083_001E.json)
 
 ## Summary
 
