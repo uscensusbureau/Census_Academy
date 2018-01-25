@@ -48,7 +48,7 @@ Census areas have a hierarchical structure wherein some areas nest within others
 
 *Download a detailed diagram  [here](https://www2.census.gov/geo/pdfs/reference/geodiagram.pdf)*
 
-See the hierarchy as a tree list [here](./assets/census-hierarchy.md)
+See the hierarchy as a tree list [here](https://github.com/uscensusbureau/Census_Academy/blob/master/assets/courses/01_API_Introduction/census-hierarchy.md)
 
 Here is an example of what this nested relationship looks like 'on the ground':
 

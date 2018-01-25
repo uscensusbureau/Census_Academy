@@ -26,7 +26,7 @@ Let's say we'd like to see different states measure in terms of income inequalit
 Let's begin by going over to [American Factfinder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml) and clicking "Advanced Search" and from the drop down "[show me all](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t)."
 
 
-![American Factfinder](https://raw.githubusercontent.com/uscensusbureau/Census_Academy/master/assets/AFF%20Advanced%20Search%20Dialog.PNG)
+![American Factfinder](https://raw.githubusercontent.com/uscensusbureau/Census_Academy/master/assets/courses/01_API_Introduction/AFF%20Advanced%20Search%20Dialog.PNG)
 From here we'll just type "income inequality" into the "topic or table name" search field. As we do, we will actually see some instant search results in the type-ahead dropdown below:
 
 `B19083: GINI INDEX OF INCOME INEQUALITY`
@@ -41,7 +41,7 @@ We'll click this type-ahead option to select that search term, then click "GO." 
 
 At this point, we have a long list of potential candidates, but this may be shorter or longer than the results you may get for a different query. Let's narrow try to narrow this list down by choosing our **"Geographies"** by clicking the accordingly named sky blue button on the left of the page:
 
-![Geographies](https://raw.githubusercontent.com/uscensusbureau/Census_Academy/master/assets/Geographies%20button.PNG)
+![Geographies](https://raw.githubusercontent.com/uscensusbureau/Census_Academy/master/assets/courses/01_API_Introduction/Geographies%20button.PNG)
 
 This will bring up a dialog box from wherein you will select `State - 040` in this case. You'll then select `All States within the United States and Puerto Rico`, which will add this selection to **"Your Selections"** filters. Now, close the dialog box to view your shortlist. Notice that - in this case the list has not been reduced in size. This is because all of the Tables listed contain data that are available at the *state* level. Groovy. Let's continue.
 
